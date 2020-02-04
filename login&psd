@@ -1,0 +1,11 @@
+given_name="abishek"
+name=str(input("enter the name:"))
+given_psd=123456789
+psd=int(input("enter the password:"))
+if(given_name==name):
+    if(given_psd==psd):
+        print("login sucessful")
+    else:
+        print("invalid psd")
+else:
+    print(" both or invalid")
