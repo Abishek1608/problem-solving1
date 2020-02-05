@@ -1,0 +1,12 @@
+p=0
+name=str(input("enter the name:"))
+password=int(input("enter the password:"))
+login_name=["abishek","deepan","nirmal"]
+login_psd=[12345,3456,5678]
+for i in login_name:
+    if(i == name):
+        p=login_name.index(name)
+if(login_psd[p]==password):
+    print("success")
+else:
+    print("password wrong")
