@@ -1,0 +1,11 @@
+bill=input("total bill :$")
+percentage=input("percentage would you like to give is 10,12,15 :")
+split_bill=input("how many people to split the bill :")
+each_person_bill=input("each person should pay :$")
+n=float(percentage)/100
+new_percentage=n*float(bill)
+each_person=float(new_percentage)/float(split_bill)
+print("welcome to trip bill")
+print(bill)
+print(percentage)
+print(each_person_bill,each_person)
